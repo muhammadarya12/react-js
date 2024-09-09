@@ -1,10 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import AnimeSearch from './anime';
+import './app1.css'; // Impor CSS jika diperlukan
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+const App = () => (
+  <div className="app">
+    <AnimeSearch />
+  </div>
+);
+
+ReactDOM.render(<App />, document.getElementById('root'));

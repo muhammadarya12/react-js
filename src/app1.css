@@ -1,0 +1,177 @@
+/* app1.css */
+
+.anime-search-container {
+  background-image: url('link-gambar-anda');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  color: white; /* Atur warna teks jika diperlukan */
+}
+
+.anime-card {
+  background-color: rgba(0, 0, 0, 0.7); /* Transparansi background card */
+  color: white;
+}
+
+body {
+  background-color: #121212; /* Warna background body */
+}
+
+.anime-search-container h1 {
+  background-color: rgba(0, 0, 0, 0.5); /* Warna hitam dengan transparansi */
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.anime-search-container h1 {
+  color: white;
+}
+
+.anime-search-container h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.anime-search-container h1 {
+  z-index: 1;
+  position: relative;
+}
+
+.anime-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff); /* Warna gradasi */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.anime-search-container h1 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+.anime-search-container .form-control {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anime-search-container .btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anime-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.anime-card:hover {
+  transform: scale(1.05);
+}
+
+.anime-card img {
+  border-bottom: 5px solid #007bff;
+}
+
+.anime-card .card-body {
+  background-color: white;
+}
+
+
+body {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 1rem;
+}
+
+.anime-search-container {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.anime-card {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 15px;
+}
+
+.anime-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.anime-card img {
+  border-radius: 15px 15px 0 0;
+}
+
+.form-control {
+  border-radius: 30px;
+  padding: 0.75rem 1.5rem;
+}
+
+.button {
+  border-radius: 30px;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Atau gunakan gambar anime */
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.anime-search-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.anime-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.anime-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
